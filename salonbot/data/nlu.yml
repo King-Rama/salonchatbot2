@@ -3,15 +3,15 @@ version: "2.0"
 nlu:
 - intent: greet
   examples: |
-    - habari
-    - mambo
-    - za mida ?
-    - za jioni
-    - good morning
+    - Mambo
+    - Habari za mchana
+    - Habari za jioni
+    - Za mida
+    - Niaje
     - good evening
-    - moin
+    - Za asubuhi
     - hey there
-    - let's go
+    - Uko poa
     - hey dude
     - goodmorning
     - goodevening
@@ -19,42 +19,49 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - kusuka shilingi ngapi
-    - msuko gani mzuri
-    - good by
-    - cee you later
-    - good night
-    - bye
+    - Ntakuckeki basi
+    - baadae
+    - mida
+    - Ntakutafuta
+    - tutaongea
+    - poa hamna noma
     - goodbye
-    - have a nice day
+    - siku njema
     - see you around
     - bye bye
     - see you later
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - yeah
+    - ndio
+    - bila shaka
+    - hujakosea
+    - Ni poa aisee
+    - Safi
+
+- intent: misuko
+  examples: |
+    - Kuna misuko mingapi kwani ?
+    - hebu tuone yote ?
+    - hebu onyesha ?
+    - yote
 
 - intent: deny
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - Hapana
+    - sio kweli
+    - Duh, hio sijawahi kusikia
+    - sidhani
+    - wapi wewe kwenda huko
+    - Iyo ni kamba sasa unaleta
+    - Sina muda
 
 - intent: mood_great
   examples: |
-    - perfect
-    - great
-    - amazing
+    - safi sana aisee
+    - nzuri
+    - umepatia sana
     - feeling like a king
     - wonderful
     - I am feeling very good
@@ -86,7 +93,133 @@ nlu:
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - wewe ni nani ?
+    - wewe ni mtu au binaadamu?
+    - naongera na karoboti nini?
+    - wewe si mtu?
+
+- intent: kusuka_nywele
+  examples: |
+    - Nataka kusuka ?
+    - Nahitaji kusuka ?
+    - Nataka kufanya retaouch ya nywele ?
+    - Kuosha nywele
+    - kushonea weaving ?
+    - kuosha na kubond nywele
+    - kuweka steaming
+
+- intent: mambo_kucha
+  examples: |
+    - kupaka rangi kucha bei gani ?
+    - kucha mnahudumia ?
+    - kucha kama za ki zombi zombi
+    - pedicure
+    - pedi cure
+    - pedcure
+    - nahitaji huduma ya manicure ?
+    - mani cure
+    - mancure
+    - kusafisha miguu
+    - kusafisha mikono
+
+- intent: mambo_masaji
+  examples: |
+    - Nahitaji hudama ya masaji ?
+    - masaji mnafanya ?
+    - nikitaka kukandwa shilingi ngapi ?
+    - massage ?
+
+- intent: mambo_makeup
+  examples: |
+    - Nahitaji kufanya makeup ?
+    - naweza nikafanya makeup hapa ?
+    - nahitaji kurembwa ?
+    - urembo wa usoni ?
+    - kujipodoa ?
+
+- intent: mambo_manicure
+  examples: |
+    - nahitaji huduma ya manicure ?
+    - mani cure
+    - mancure
+
+- intent: mambo_pedicure
+  examples: |
+    - nahitaji huduma ya pedicure ?
+    - pedi cure
+    - pedcure
+
+- intent: kusuka_yebo
+  examples: |
+    - yeboyebo
+    - nahitaji kusuka yebo yebo ?
+    - yebo yebo
+    - yebo
+
+- intent: kusuka_vitunguu
+  examples: |
+    - vitunguu
+    - nahitaji kusuka mtindo wa vitunguu ?
+    - vitu nguu
+    - onions
+
+- intent: kusuka_crochet
+  examples: |
+    - crotchet
+    - crochet
+    - nahitaji kusuka crochet ?
+    - nahitaji kusuka cro chet ?
+    - nahitaji kusuka chet ?
+
+- intent: kusuka_deadrocks
+  examples: |
+    - deadrocks
+    - deadlocks
+    - nahitaji kusuka dreadlocks ?
+    - nahitaji kusuka deadrocks ?
+    - nahitaji kusuka rocks ?
+
+
+- intent: kusuka_sulsu
+  examples: |
+    - sulsu
+    - sulsu
+    - nahitaji kusuka sul ?
+    - nahitaji kusuka lsu ?
+    - nahitaji kusuka sulsu  ?
+
+
+- intent: kusuka_dread
+  examples: |
+    - dread
+    - dead
+    - nahitaji kusuka dredi ?
+    - nahitaji kusuka dread ?
+    - nahitaji kusuka dreadi ?
+
+
+- intent: kusuka_african
+  examples: |
+    - afirikana
+    - afirika
+    - nahitaji kusuka african ?
+    - nahitaji kusuka africa ?
+    - nahitaji kusuka afrikan ?
+
+
+- intent: kusuka_bob
+  examples: |
+    - aina ya bob
+    - bob
+    - nahitaji kusuka bob bob ?
+    - nahitaji kusuka bobu ?
+    - nahitaji kusuka bob ?
+
+
+- intent: kusuka_notless
+  examples: |
+    - notless
+    - not less
+    - nahitaji kusuka noless ?
+    - nahitaji kusuka notless ?
+    - nahitaji kusuka notles ?

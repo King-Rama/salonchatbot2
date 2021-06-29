@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-
 <head>
   <link rel="stylesheet" href="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.css" />
 </head>
@@ -11,14 +8,12 @@
   <script type="text/javascript">
     var chatroom = new window.Chatroom({
       host: "http://localhost:5005",
-      title: "Rhoby salon bot",
+      title: "Chat with Mike",
       container: document.querySelector(".chat-container"),
-      welcomeMessage: "Habari, karibu saluni yetu?",
+      welcomeMessage: "Hi, I am Mike. How may I help you?",
       speechRecognition: "en-US",
       voiceLang: "en-US"
     });
     chatroom.openChat();
   </script>
 </body>
-
-</html>

@@ -28,3 +28,252 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: kusuka path
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_bob
+  - action: utter_bob
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 1
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_bob
+  - action: utter_bob
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: kusuka path 2
+  steps:
+  - intent: misuko
+  - action: utter_yeboyebo
+  - action: utter_vitunguu
+  - action: utter_crochet
+  - action: utter_sulsu
+  - action: utter_dread
+  - action: utter_african
+  - action: utter_bob
+  - action: utter_notless
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 3
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_yebo
+  - action: utter_yeboyebo
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 4
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_notless
+  - action: utter_notless
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 5
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_notless
+  - action: utter_notless
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: kusuka path 6
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_vitunguu
+  - action: utter_vitunguu
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 7
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_vitunguu
+  - action: utter_vitunguu
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: kusuka path 8
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_crochet
+  - action: utter_crochet
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 9
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_crochet
+  - action: utter_crochet
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: kusuka path 10
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_sulsu
+  - action: utter_sulsu
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 11
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_sulsu
+  - action: utter_sulsu
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: kusuka path 12
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_dread
+  - action: utter_dread
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 13
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_dread
+  - action: utter_dread
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: kusuka path 14
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_african
+  - action: utter_african
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 15
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_african
+  - action: utter_african
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: kusuka path 16
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_deadrocks
+  - action: utter_dead_rocks
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 17
+  steps:
+  - intent: kusuka_nywele
+  - action: utter_ask_msuko
+  - intent: kusuka_deadrocks
+  - action: utter_dead_rocks
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: kusuka path 18
+  steps:
+  - intent: mambo_kucha
+  - action: utter_ask_kucha
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 19
+  steps:
+  - intent: mambo_kucha
+  - action: utter_ask_kucha
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: kusuka path 20
+  steps:
+  - intent: mambo_masaji
+  - action: utter_ask_masaji
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 21
+  steps:
+  - intent: mambo_kucha
+  - action: utter_ask_masaji
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: kusuka path 22
+  steps:
+  - intent: mambo_makeup
+  - action: utter_ask_manicure
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 23
+  steps:
+  - intent: mambo_makeup
+  - action: utter_ask_manicure
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: kusuka path 24
+  steps:
+  - intent: mambo_makeup
+  - action: utter_ask_pedicure
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 25
+  steps:
+  - intent: mambo_makeup
+  - action: utter_ask_pedicure
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
