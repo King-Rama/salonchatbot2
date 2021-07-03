@@ -121,6 +121,8 @@ nlu:
     - mancure
     - kusafisha miguu
     - kusafisha mikono
+    - manicure mnafanya kwa bei gani, je mnapaka jerry
+    - mnapaka jerry na rangi ya kawaida
 
 - intent: mambo_masaji
   examples: |
@@ -142,12 +144,16 @@ nlu:
     - nahitaji huduma ya manicure ?
     - mani cure
     - mancure
+    - manicure mnafanya kwa bei gani, je mnapaka jerry
+    - mnapaka jerry na rangi ya kawaida
 
 - intent: mambo_pedicure
   examples: |
     - nahitaji huduma ya pedicure ?
     - pedi cure
     - pedcure
+    - manicure mnafanya kwa bei gani, je mnapaka jerry
+    - mnapaka jerry na rangi ya kawaida
 
 - intent: kusuka_yebo
   examples: |
@@ -179,7 +185,6 @@ nlu:
     - nahitaji kusuka deadrocks ?
     - nahitaji kusuka rocks ?
 
-
 - intent: kusuka_sulsu
   examples: |
     - sulsu
@@ -187,7 +192,6 @@ nlu:
     - nahitaji kusuka sul ?
     - nahitaji kusuka lsu ?
     - nahitaji kusuka sulsu  ?
-
 
 - intent: kusuka_dread
   examples: |
@@ -197,7 +201,6 @@ nlu:
     - nahitaji kusuka dread ?
     - nahitaji kusuka dreadi ?
 
-
 - intent: kusuka_african
   examples: |
     - afirikana
@@ -206,7 +209,6 @@ nlu:
     - nahitaji kusuka africa ?
     - nahitaji kusuka afrikan ?
 
-
 - intent: kusuka_bob
   examples: |
     - aina ya bob
@@ -214,7 +216,6 @@ nlu:
     - nahitaji kusuka bob bob ?
     - nahitaji kusuka bobu ?
     - nahitaji kusuka bob ?
-
 
 - intent: kusuka_notless
   examples: |

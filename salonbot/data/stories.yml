@@ -28,7 +28,7 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
-
+# asking for types of hair style
 - story: kusuka path
   steps:
   - intent: kusuka_nywele
@@ -214,6 +214,8 @@ stories:
   - intent: affirm
   - action: utter_goodbye
 
+# end of hair styles
+# asking for nails service
 - story: kusuka path 18
   steps:
   - intent: mambo_kucha
@@ -229,7 +231,8 @@ stories:
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_goodbye
-
+# end of asking for nails service
+# massage service
 - story: kusuka path 20
   steps:
   - intent: mambo_masaji
@@ -240,16 +243,17 @@ stories:
 
 - story: kusuka path 21
   steps:
-  - intent: mambo_kucha
+  - intent: mambo_masaji
   - action: utter_ask_masaji
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_goodbye
-
+# end massage service
+# makeup service
 - story: kusuka path 22
   steps:
   - intent: mambo_makeup
-  - action: utter_ask_manicure
+  - action: utter_ask_makeup
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
@@ -257,14 +261,15 @@ stories:
 - story: kusuka path 23
   steps:
   - intent: mambo_makeup
-  - action: utter_ask_manicure
+  - action: utter_ask_makeup
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_goodbye
-
+# end makeup service
+# pedicure services
 - story: kusuka path 24
   steps:
-  - intent: mambo_makeup
+  - intent: mambo_pedicure
   - action: utter_ask_pedicure
   - action: utter_did_that_help
   - intent: deny
@@ -272,8 +277,34 @@ stories:
 
 - story: kusuka path 25
   steps:
-  - intent: mambo_makeup
+  - intent: mambo_pedicure
   - action: utter_ask_pedicure
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_goodbye
+# end pedicure services
+# start of manicure
+- story: kusuka path 26
+  steps:
+  - intent: mambo_manicure
+  - action: utter_ask_manicure
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: kusuka path 27
+  steps:
+  - intent: mambo_manicure
+  - action: utter_ask_manicure
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+# end of manicure
+
+# mabutu
+# dredi
+# za uzi
+# crochet ya mambo twist
+# rasta zangu au zako
+# mnapamba maharusi kwa gharama gani
+#

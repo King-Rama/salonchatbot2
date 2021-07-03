@@ -23,6 +23,7 @@ intents:
   - kusuka_african
   - kusuka_bob
   - kusuka_notless
+  - mambo_pedicure
 
 responses:
   utter_greet:
@@ -101,7 +102,7 @@ responses:
       image: "https://i1.wp.com/vayomassage.com/wp-content/uploads/2014/04/MANICURE-PEDICURE-IN-PHUKET1.jpg"
 
   utter_ask_pedicure:
-    - text: "Ndio huduma inapatikana kwa bei nafuu kabisa"
+    - text: "Ndio huduma inapatikana kwa bei nafuu"
       image: "https://endotaspa.com.au/media/catalog/product/cache/12920c4fb4d76738ab4937d59af17302/e/n/endota_pedicures_beauty_services_day_spa_treatment_435x599rgb.jpg"
 
   utter_ndio_hapana:
