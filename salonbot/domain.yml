@@ -26,6 +26,9 @@ intents:
   - mambo_pedicure
   - crochet_twist
   - nywele_zipo
+  - rangi_jerry
+  - rangi_jerry1
+  - rangi_jerry2
 
 responses:
   utter_greet:
@@ -141,6 +144,15 @@ responses:
 
   utter_nakuja_nazo:
     - text: "Usipokuja nazo bei itaongezeka kulingana na msuko"
+
+  utter_jerry_kucha:
+    - text: "ndio tunapaka jerry kuanzia 5000"
+
+  utter_jerry_kucha1:
+    - text: "ndio tunapaka kawaida kuanzia 1000"
+
+  utter_5000:
+    - text: "kuanzia 5000"
 
 session_config:
   session_expiration_time: 60

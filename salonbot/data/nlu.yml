@@ -232,3 +232,17 @@ nlu:
 - intent: nywele_zipo
   examples: |
     - Je, nywele mnazo au nije mnazo
+
+- intent: rangi_jerry
+  examples: |
+    - Mnapaka rangi ya jerry
+    - Mnapaka rangi ya jelly
+
+- intent: rangi_jerry1
+  examples: |
+    - Mnapaka rangi ya kawaida
+    - Mnapaka rangi ya kawaida
+
+- intent: rangi_jerry2
+  examples: |
+    - Shilingi ngapi ?

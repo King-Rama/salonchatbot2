@@ -334,7 +334,41 @@ stories:
   - intent: affirm
   - action: utter_goodbye
 # end of manicure
-#
+- story: kusuka path 28
+  steps:
+    - intent: rangi_jerry
+    - action: utter_jerry_kucha
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_goodbye
+
+- story: kusuka path 29
+  steps:
+    - intent: rangi_jerry1
+    - action: utter_jerry_kucha1
+    - intent: rangi_jerry2
+    - action: utter_5000
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_goodbye
+
+- story: kusuka path 30
+  steps:
+    - intent: rangi_jerry1
+    - action: utter_jerry_kucha1
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_goodbye
+
+- story: kusuka path 31
+  steps:
+    - intent: rangi_jerry
+    - action: utter_jerry_kucha
+    - intent: rangi_jerry2
+    - action: utter_5000
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_goodbye
 # mabutu
 # dredi
 # za uzi
