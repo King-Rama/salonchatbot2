@@ -224,3 +224,11 @@ nlu:
     - nahitaji kusuka noless ?
     - nahitaji kusuka notless ?
     - nahitaji kusuka notles ?
+
+- intent: crochet_twist
+  examples: |
+    - Je, mnasuka mambo twist
+
+- intent: nywele_zipo
+  examples: |
+    - Je, nywele mnazo au nije mnazo

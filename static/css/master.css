@@ -52,11 +52,11 @@
     float: left;
     clear: both;
     margin: 10px 0 0;
-    max-width: 50%
+    max-width: 90%
 }
 /* change in here will affect the size of the images */
 .chatroom .chats .chat img {
-    max-width: 15%;
+    max-width: 70%;
     vertical-align: middle
 }
 

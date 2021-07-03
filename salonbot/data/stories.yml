@@ -35,6 +35,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_bob
   - action: utter_bob
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
@@ -44,6 +46,8 @@ stories:
   - intent: kusuka_nywele
   - action: utter_ask_msuko
   - intent: kusuka_bob
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_bob
   - action: utter_did_that_help
   - intent: affirm
@@ -70,6 +74,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_yebo
   - action: utter_yeboyebo
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
@@ -80,6 +86,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_notless
   - action: utter_notless
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
@@ -90,6 +98,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_notless
   - action: utter_notless
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_goodbye
@@ -100,6 +110,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_vitunguu
   - action: utter_vitunguu
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
@@ -110,6 +122,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_vitunguu
   - action: utter_vitunguu
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_goodbye
@@ -120,6 +134,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_crochet
   - action: utter_crochet
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
@@ -130,6 +146,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_crochet
   - action: utter_crochet
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_goodbye
@@ -140,6 +158,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_sulsu
   - action: utter_sulsu
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
@@ -150,6 +170,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_sulsu
   - action: utter_sulsu
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_goodbye
@@ -160,6 +182,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_dread
   - action: utter_dread
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
@@ -170,6 +194,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_dread
   - action: utter_dread
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_goodbye
@@ -180,6 +206,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_african
   - action: utter_african
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
@@ -190,6 +218,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_african
   - action: utter_african
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_goodbye
@@ -200,6 +230,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_deadrocks
   - action: utter_dead_rocks
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
@@ -210,6 +242,8 @@ stories:
   - action: utter_ask_msuko
   - intent: kusuka_deadrocks
   - action: utter_dead_rocks
+  - intent: nywele_zipo
+  - action: utter_nakuja_nazo
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_goodbye
@@ -300,7 +334,7 @@ stories:
   - intent: affirm
   - action: utter_goodbye
 # end of manicure
-
+#
 # mabutu
 # dredi
 # za uzi

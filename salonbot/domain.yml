@@ -24,6 +24,8 @@ intents:
   - kusuka_bob
   - kusuka_notless
   - mambo_pedicure
+  - crochet_twist
+  - nywele_zipo
 
 responses:
   utter_greet:
@@ -32,6 +34,11 @@ responses:
   utter_cheer_up:
   - text: "Furahi kidogo basi:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_mabutu:
+  - text: "Ndio, tunasuka mabutu"
+  - text: "kuanzia madogo : 35,000 Tsh rasta kwako, makubwa : 15,000 Tsh na saizi ya kati: 20,000 Tsh"
+    image: "https://imgur.com/gLorobB.jpg"
 
   utter_did_that_help:
   - text: "Hio imesaidia?"
@@ -107,6 +114,33 @@ responses:
 
   utter_ndio_hapana:
     - text: "Tafadhali jibu ndio kukubali au hapana kukataa"
+
+  utter_dredi:
+    - text: "Tunasuka dredi aina zote"
+      image: "https://imgur.com/YPpMHXW.jpg"
+
+  utter_za_uzi:
+    - text: "Tunasuka aina zote"
+      image: "https://imgur.com/gAF6IX9.jpg"
+
+  utter_za_uzi1:
+    - text: "Tunasuka aina zote"
+      image: "https://imgur.com/WyJc5B6.jpg"
+
+  utter_mapambo_harusi:
+    - text: "Yapo ndio"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE0zf3b5_fxedhpssNKCadhlEtPecUY1Iy8A&usqp=CAU"
+
+  utter_mambo_crochet_twist:
+    - text: "Tunasuka aina zote"
+      image: "https://imgur.com/gAF6IX9.jpg"
+
+  utter_mambo_crochet_twist1:
+    - text: "Tunasuka aina zote"
+      image: "https://imgur.com/V29U67p.jpg"
+
+  utter_nakuja_nazo:
+    - text: "Usipokuja nazo bei itaongezeka kulingana na msuko"
 
 session_config:
   session_expiration_time: 60
