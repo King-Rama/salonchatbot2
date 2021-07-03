@@ -66,27 +66,27 @@ responses:
       image: "https://imgur.com/6YeKSZi.jpg"
 
   utter_dead_rocks:
-    - text: "deadrocks: Bei ni 23,400 Tsh"
+    - text: "deadrocks: Bei ni kuanzia 23,400 Tsh"
       image: "https://imgur.com/nLFhSjz.jpg"
 
   utter_sulsu:
-    - text: "Sulsu: Bei ni 38,000 Tsh"
+    - text: "Sulsu: Bei ni kuanzia 38,000 Tsh"
       image: "https://imgur.com/AejiPXS.jpg"
 
   utter_dread:
-    - text: "Dread: Bei ni 18,000 Tsh"
+    - text: "Dread: Bei ni kuanzia 18,000 Tsh"
       image: "https://imgur.com/WWTnUVx.jpg"
 
   utter_african:
-    - text: "African: Bei ni 17,500 Tsh"
+    - text: "African: Bei ni kuanzia 17,500 Tsh"
       image: "https://imgur.com/rGpPNk7.jpg"
 
   utter_bob:
-    - text: "Bob: Bei ni 12,000 Tsh"
+    - text: "Bob: Bei ni kuanzia 12,000 Tsh"
       image: "https://imgur.com/DTlhJ4X.jpg"
 
   utter_notless:
-    - text: "Notless: Bei ni 58,000 Tsh"
+    - text: "Notless: Bei ni kuanzia 58,000 Tsh"
       image: "https://imgur.com/YRhWe3t.jpg"
 
   utter_ask_msuko:
