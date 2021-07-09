@@ -2,377 +2,507 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: salamu path 1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
-# asking for types of hair style
-- story: kusuka path
-  steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_bob
-  - action: utter_bob
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: salamu
+  - action: utter_salamu
 
 - story: kusuka path 1
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_bob
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: bob
   - action: utter_bob
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 2
   steps:
-  - intent: misuko
-  - action: utter_yeboyebo
-  - action: utter_vitunguu
-  - action: utter_crochet
-  - action: utter_sulsu
-  - action: utter_dread
-  - action: utter_african
-  - action: utter_bob
-  - action: utter_notless
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: bob_kubwa
+  - action: utter_bob_kubwa
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 3
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_yebo
-  - action: utter_yeboyebo
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: bob_ndogo
+  - action: utter_bob_ndogo
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 4
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_notless
-  - action: utter_notless
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: mabutu_ya_rasta
+  - action: utter_mabutu_ya_rasta
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 5
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_notless
-  - action: utter_notless
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: nywele_ya_mkono
+  - action: utter_nywele_ya_mkono
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 6
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_vitunguu
-  - action: utter_vitunguu
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: twende_kilioni
+  - action: utter_twende_kilioni
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 7
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_vitunguu
-  - action: utter_vitunguu
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: mbinjuo
+  - action: utter_mbinjuo
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 8
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_crochet
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: crochet
   - action: utter_crochet
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 9
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_crochet
-  - action: utter_crochet
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: crochet_ya_selfie
+  - action: utter_crochet_ya_selfie
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 10
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_sulsu
-  - action: utter_sulsu
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: selfi_za_jerry
+  - action: utter_selfi_za_jerry
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 11
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_sulsu
-  - action: utter_sulsu
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: vitunguu_vya_kusokota
+  - action: utter_vitunguu_vya_kusokota
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 12
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_dread
-  - action: utter_dread
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: vitunguu_vya_kuanzia_chini
+  - action: utter_vitunguu_vya_kuanzia_chini
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 13
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_dread
-  - action: utter_dread
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: zigzag_ya_mkono
+  - action: utter_zigzag_ya_mkono
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 14
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_african
-  - action: utter_african
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: zigzag_ya_rasta
+  - action: utter_zigzag_ya_rasta
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 15
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_african
-  - action: utter_african
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: mkeka
+  - action: utter_mkeka
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 16
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_deadrocks
-  - action: utter_dead_rocks
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: tano_kichwa
+  - action: utter_tano_kichwa
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 17
   steps:
-  - intent: kusuka_nywele
-  - action: utter_ask_msuko
-  - intent: kusuka_deadrocks
-  - action: utter_dead_rocks
-  - intent: nywele_zipo
-  - action: utter_nakuja_nazo
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: vitunguu_njia_mbili
+  - action: utter_vitunguu_njia_mbili
+  - action: utter_feedback
+  - action: utter_ndyo
 
-# end of hair styles
-# asking for nails service
 - story: kusuka path 18
   steps:
-  - intent: mambo_kucha
-  - action: utter_ask_kucha
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: bob_fupi
+  - action: utter_bob_fupi
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 19
   steps:
-  - intent: mambo_kucha
-  - action: utter_ask_kucha
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
-# end of asking for nails service
-# massage service
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: bob_kubwa
+  - action: utter_bob_kubwa
+  - action: utter_feedback
+  - action: utter_ndyo
+
 - story: kusuka path 20
   steps:
-  - intent: mambo_masaji
-  - action: utter_ask_masaji
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: bob_ndogo
+  - action: utter_bob_ndogo
+  - action: utter_feedback
+  - action: utter_ndyo
 
-- story: kusuka path 21
-  steps:
-  - intent: mambo_masaji
-  - action: utter_ask_masaji
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
-# end massage service
-# makeup service
 - story: kusuka path 22
   steps:
-  - intent: mambo_makeup
-  - action: utter_ask_makeup
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
-
-- story: kusuka path 23
-  steps:
-  - intent: mambo_makeup
-  - action: utter_ask_makeup
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
-# end makeup service
-# pedicure services
-- story: kusuka path 24
-  steps:
-  - intent: mambo_pedicure
-  - action: utter_ask_pedicure
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: nywele_ya_mkono
+  - action: utter_nywele_ya_mkono
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 25
   steps:
-  - intent: mambo_pedicure
-  - action: utter_ask_pedicure
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
-# end pedicure services
-# start of manicure
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: mbinjuo
+  - action: utter_mbinjuo
+  - action: utter_feedback
+  - action: utter_ndyo
+
 - story: kusuka path 26
   steps:
-  - intent: mambo_manicure
-  - action: utter_ask_manicure
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: crochet
+  - action: utter_crochet
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 27
   steps:
-  - intent: mambo_manicure
-  - action: utter_ask_manicure
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_goodbye
-# end of manicure
-- story: kusuka path 28
-  steps:
-    - intent: rangi_jerry
-    - action: utter_jerry_kucha
-    - action: utter_did_that_help
-    - intent: affirm
-    - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: crochet_ya_selfie
+  - action: utter_crochet_ya_selfie
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 29
   steps:
-    - intent: rangi_jerry1
-    - action: utter_jerry_kucha1
-    - intent: rangi_jerry2
-    - action: utter_5000
-    - action: utter_did_that_help
-    - intent: affirm
-    - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: vitunguu_vya_kusokota
+  - action: utter_vitunguu_vya_kusokota
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 30
   steps:
-    - intent: rangi_jerry1
-    - action: utter_jerry_kucha1
-    - action: utter_did_that_help
-    - intent: affirm
-    - action: utter_goodbye
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: vitunguu_vya_kuanzia_chini
+  - action: utter_vitunguu_vya_kuanzia_chini
+  - action: utter_feedback
+  - action: utter_ndyo
 
 - story: kusuka path 31
   steps:
-    - intent: rangi_jerry
-    - action: utter_jerry_kucha
-    - intent: rangi_jerry2
-    - action: utter_5000
-    - action: utter_did_that_help
-    - intent: affirm
-    - action: utter_goodbye
-# mabutu
-# dredi
-# za uzi
-# crochet ya mambo twist
-# rasta zangu au zako
-# mnapamba maharusi kwa gharama gani
-#
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: zigzag_ya_mkono
+  - action: utter_zigzag_ya_mkono
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 32
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: zigzag_ya_rasta
+  - action: utter_zigzag_ya_rasta
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 33
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: mkeka
+  - action: utter_mkeka
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 34
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: tano_kichwa
+  - action: utter_tano_kichwa
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 35
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: vitunguu_njia_mbili
+  - action: utter_vitunguu_njia_mbili
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 36
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: bob_fupi
+  - action: utter_bob_fupi
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 37
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: bob_kubwa
+  - action: utter_bob_kubwa
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 38
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: bob_ndogo
+  - action: utter_bob_ndogo
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 39
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: vitunguu_vidogo
+  - action: utter_vitunguu_vidogo
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 40
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: afroking
+  - action: utter_afroking
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 41
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: vitunguu_vya_rasta
+  - action: utter_vitunguu_vya_rasta
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 42
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: yeboyebo
+  - action: utter_yeboyebo
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 43
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: yebo_achia
+  - action: utter_yebo_achia
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 44
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: salsa
+  - action: utter_salsa
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 45
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: passion_twist
+  - action: utter_passion_twist
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 46
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: mambotwist
+  - action: utter_mambotwist
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 47
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: dread
+  - action: utter_dread
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 48
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: knotless
+  - action: utter_knotless
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 49
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: nywele_za_uzi
+  - action: utter_nywele_za_uzi
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 50
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: twist
+  - action: utter_twist
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 51
+  steps:
+  - intent: curl_bleach
+  - action: utter_curl_bleach
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 52
+  steps:
+  - intent: kusuka
+  - action: utter_kusuka
+  - intent: kusokota_dread
+  - action: utter_kusokota_dread
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 53
+  steps:
+  - intent: maharusi
+  - action: utter_maharusi
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 54
+  steps:
+  - intent: kubana_nywele
+  - action: utter_kubana_nywele
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 55
+  steps:
+  - intent: kucha
+  - action: utter_kucha
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 56
+  steps:
+  - intent: makeup
+  - action: utter_makeup
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 57
+  steps:
+  - intent: dawa
+  - action: utter_dawa
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 58
+  steps:
+  - intent: kubond
+  - action: utter_kubond
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 59
+  steps:
+  - intent: weaving
+  - action: utter_weaving
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 60
+  steps:
+  - intent: steaming
+  - action: utter_steaming
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 61
+  steps:
+  - intent: kuosha
+  - action: utter_kuosha
+  - action: utter_feedback
+  - action: utter_ndyo
+
+- story: kusuka path 62
+  steps:
+  - intent: massaji
+  - action: utter_massaji
+  - action: utter_feedback
+  - action: utter_ndyo

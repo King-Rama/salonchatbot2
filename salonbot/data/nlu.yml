@@ -1,248 +1,484 @@
 version: "2.0"
 
 nlu:
-- intent: greet
-  examples: |
-    - Mambo
-    - Habari za mchana
-    - Habari za jioni
-    - Za mida
-    - Niaje
-    - good evening
-    - Za asubuhi
-    - hey there
-    - Uko poa
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+  - intent: salamu
+    examples: |
+      - mambo
+      - hello, mimi ni simba
+      - niaje
+      - morning
+      - morn
+      - vp
+      - vip
+      - niadje
+      - habari
+      - habar za wakati huu?
+      - za jion
+      - za mchana
+      - za asubuh
+      - za asubh
+      - hey
+      - hello
+      - helo
+      - evening
+      - good evening
+      - good morning
+      - whatsup?
+      - umeshindje?
+      - umeamkaje?
+      - afternoon
+      - good afternoon
+      - hujambo?
+      - hamjambo?
+      - mmb
+      - vipi?
+      - u hali gani?
+      - shikamoo?
+      - habari gani?
+      - fresh?
+      - mambo vip?
+      - mambo vp?
+      - hi
+      - habari ya asubuhi
+      - habari ya jioni?
+      - habari ya mchana?
+      - bwana asifiwe
+      - assalam alaikum
+      - mzma?
+      - mzima?
+      - salama?
+      - jambo?
+      - habali gani?
+      - masalheri?
+      - alamsiki
+      - uko poa?
+      - Habari zenu?
+      - Habari yako?
+      - Za mida
+      - hey there
+      - mamb
+      - za wakati huu?
+      - hey niga
+      - mambo niaje
+      - umeshindaje
 
-- intent: goodbye
-  examples: |
-    - Ntakuckeki basi
-    - baadae
-    - mida
-    - Ntakutafuta
-    - tutaongea
-    - poa hamna noma
-    - goodbye
-    - siku njema
-    - see you around
-    - bye bye
-    - see you later
+  - intent: kusuka
+    examples: |
+      - nahitaji kusuka
+      - kusuka
+      - mnaweza kusuka?
+      - nahitaji huduma ya kusukwa
+      - mnaweza nisuka?
+      - nahitaji kuosha na kusuka
+      - nahitaji kuosha kubodry na kusuka
+      - nahitaj kusuka
+      - nahitaji kusuka
+      - kuosha kukausha na kusuk
+      - kuosha kukausha na kusuka
 
-- intent: affirm
-  examples: |
-    - yeah
-    - ndio
-    - bila shaka
-    - hujakosea
-    - Ni poa aisee
-    - Safi
+  - intent: massaji
+    examples: |
+      - nahitaji massagi
+      - massage
+      - nataka massage
+      - huduma ya massage ipo?
+      - nahitaji kufanyiwa massage
+      - je mnafanya massage?
+      - nahtaka mnimassage
+      - huduma ya massage inapatikana hapa?
+      - mnaweza kufanya massage?
+      - masaji ipo
+      - Nahitaji hudama ya masaji ?
+      - masaji mnafanya ?
+      - nikitaka kukandwa shilingi ngapi ?
+      - massage ?
 
-- intent: misuko
-  examples: |
-    - Kuna misuko mingapi kwani ?
-    - hebu tuone yote ?
-    - hebu onyesha ?
-    - yote
+  - intent: kuosha
+    examples: |
+      - nahitaji kuosha nywele
+      - mnaosha nywele?
+      - huduma ya kuosha nywele ipo?
+      - nataka kuosha
+      - mnaosha nywele na kusuka?
+      - nahitaji kuosha nywele na kukausha?
+      - nahitaji kuosha nywele na kuseti
+      - nataka kuosha na kubodry
+      - kuosha
 
-- intent: deny
-  examples: |
-    - Hapana
-    - sio kweli
-    - Duh, hio sijawahi kusikia
-    - sidhani
-    - wapi wewe kwenda huko
-    - Iyo ni kamba sasa unaleta
-    - Sina muda
+  - intent: steaming
+    examples: |
+      - nahitaji kusteam
+      - kuweka steaming
+      - mnaweka steaming?
+      - steaming ipo?
+      - mnaweza kunifanyia steaming?
+      - mnaweka steaming kwa shiling ngap?
+      - shilingi ngap uweka steaming
+      - nahitaji kuweka steaming
+      - nataka kusteam
+      - kusteam sh ngap?
 
-- intent: mood_great
-  examples: |
-    - safi sana aisee
-    - nzuri
-    - umepatia sana
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+  - intent: weaving
+    examples: |
+      - nahitaji weaving
+      - huduma ya kushonea weavings ipo?
+      - nahitaji kushononea weaving
+      - weaving
+      - mnashonea maweaving?
+      - weaving zipo?
+      - kuduma ya kushonea weaving inapatikana?
+      - nahitaji kushonea weaving
+      - nahitaji kuosha na kushonea weaving
+      - nataka kuosha, kubodry na kusuka
+      - nahitaji kushonea weaving ndefu
+      - nahitaji kushonea weaving fupi
 
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+  - intent: kubond
+    examples: |
+      - bonding ipo?
+      - nahitaji kubond weaving refu
+      - huduma ya kubond  ipo?
+      - nahitaji kubond weaving fupi
+      - kubond
+      - mnabond maweaving?
+      - weaving zipo?
+      - kuduma ya kubond weaving inapatikana?
+      - nahitaji kubond
+      - nahitaji kuosha na kubond
+      - nataka kuosha, kubodry na kubond
 
-- intent: bot_challenge
-  examples: |
-    - wewe ni nani ?
-    - wewe ni mtu au binaadamu?
-    - naongera na karoboti nini?
-    - wewe si mtu?
+  - intent: dawa
+    examples: |
+      - nahitaji kuweka dawa
+      - kuweka dawa na steaming
+      - mnaweka dawa?
+      - huduma ya kuweka dawa ipo?
+      - mnaweza kuweka dawa na kunifanyia steaming?
+      - mnaweka dawa  na steaming kwa shiling ngap?
+      - shilingi ngap kuweka dawa
+      - nahitaji kuweka dawa bei yake ni sh ngap?
+      - nataka kuweka dawa
+      - kuweka dawa na kuseti sh ngap?
+      - kuweka dawa na kubodry sh ngap
+      - kuweka dawa ya box sh ngap?
+      - kuweka dawa ya kopo shiling ngap?
+      - gharama ya kuweka dawa ni kias gab?
+      - kulitachi shiling ngap
+      - nahitaji kuretachi na kuweka steaming
+      - nahitaji kuweka dawa na steaming
 
-- intent: kusuka_nywele
-  examples: |
-    - Nataka kusuka ?
-    - Nahitaji kusuka ?
-    - Nataka kufanya retaouch ya nywele ?
-    - Kuosha nywele
-    - kushonea weaving ?
-    - kuosha na kubond nywele
-    - kuweka steaming
 
-- intent: mambo_kucha
-  examples: |
-    - kupaka rangi kucha bei gani ?
-    - kucha mnahudumia ?
-    - kucha kama za ki zombi zombi
-    - pedicure
-    - pedi cure
-    - pedcure
-    - nahitaji huduma ya manicure ?
-    - mani cure
-    - mancure
-    - kusafisha miguu
-    - kusafisha mikono
-    - manicure mnafanya kwa bei gani, je mnapaka jerry
-    - mnapaka jerry na rangi ya kawaida
 
-- intent: mambo_masaji
-  examples: |
-    - Nahitaji hudama ya masaji ?
-    - masaji mnafanya ?
-    - nikitaka kukandwa shilingi ngapi ?
-    - massage ?
+  - intent: makeup
+    examples: |
+      - nahitaji makeup
+      - nataka kupaka makeup
+      - nahitaji simple makeup
+      - simple make up shiling ngap?
+      - nahitaji heavy makeup
+      - heavy makeup shiling ngap?
+      - mnatoa huduma ya make up
+      - nahitaji kulembwa
+      - mnalemba kwa gharam gani?
+      - mnapaka makeup kwa gharama gani?
+      - makeup
+      - makup
+      - make_up
+      - naweza nikafanya makeup hapa ?
+      - nahitaji kurembwa ?
+      - urembo wa usoni ?
+      - kujipodoa ?
 
-- intent: mambo_makeup
-  examples: |
-    - Nahitaji kufanya makeup ?
-    - naweza nikafanya makeup hapa ?
-    - nahitaji kurembwa ?
-    - urembo wa usoni ?
-    - kujipodoa ?
 
-- intent: mambo_manicure
-  examples: |
-    - nahitaji huduma ya manicure ?
-    - mani cure
-    - mancure
-    - manicure mnafanya kwa bei gani, je mnapaka jerry
-    - mnapaka jerry na rangi ya kawaida
+  - intent: kucha
+    examples: |
+      - nataka kupaka rangi
+      - nataka kupaka jerry
+      - nahitaji kupaka rangi kucha
+      - nahitaji manicure
+      - nahitaji pedicure
+      - mancure
+      - pedicure
+      - nataka kupaka rangi ya kawaida
+      - nataka kupaka rangi mikononi na miguuni
+      - rangi ya jerry shiling ngap?
+      - ramgi ya kawaida shiling ngap?
+      - manicure shiling ngap?
+      - manicure sh ngap?
+      - pedicure shiling ngap?
+      - pedicure sh ngap?
+      - kupaka rangi kucha bei gani ?
+      - kucha mnahudumia ?
+      - kucha kama za ki zombi zombi
+      - pedi cure
+      - pedcure
+      - nahitaji huduma ya manicure ?
+      - mani cure
+      - kusafisha miguu
+      - kusafisha mikono
+      - manicure mnafanya kwa bei gani, je mnapaka jerry
+      - mnapaka jerry na rangi ya kawai
+      - kusugua gaga shilingi ngapi?
 
-- intent: mambo_pedicure
-  examples: |
-    - nahitaji huduma ya pedicure ?
-    - pedi cure
-    - pedcure
-    - manicure mnafanya kwa bei gani, je mnapaka jerry
-    - mnapaka jerry na rangi ya kawaida
+  - intent: kubana_nywele
+    examples: |
+      - mnabana nywele aina zote?
+      - mnatoa huduma ya kubana nywele ?
+      - nahitaji kubana
+      - nahitaji kubana mkia wa farasi
 
-- intent: kusuka_yebo
-  examples: |
-    - yeboyebo
-    - nahitaji kusuka yebo yebo ?
-    - yebo yebo
-    - yebo
 
-- intent: kusuka_vitunguu
-  examples: |
-    - vitunguu
-    - nahitaji kusuka mtindo wa vitunguu ?
-    - vitu nguu
-    - onions
+  - intent: maharusi
+    examples: |
+      - mnapamba maharusi
+      - nahitaji kumleta bibi harusi
+      - mnapamba maharusi kwa gharama gani?
+      - nahitaji huduma ya upambaji wa bibi harusi
 
-- intent: kusuka_crochet
-  examples: |
-    - crotchet
-    - crochet
-    - nahitaji kusuka crochet ?
-    - nahitaji kusuka cro chet ?
-    - nahitaji kusuka chet ?
+  - intent: kusokota_dread
+    examples: |
+      - mnatoahuduma ya kusokota dread?
+      - mnasokota dread?
+      - kusokota dread shiling ngap?
 
-- intent: kusuka_deadrocks
-  examples: |
-    - deadrocks
-    - deadlocks
-    - nahitaji kusuka dreadlocks ?
-    - nahitaji kusuka deadrocks ?
-    - nahitaji kusuka rocks ?
+  - intent: curl_bleach
+    examples: |
+      - mnatoa huduma ya curl
+      - nahitaji kuweka curl
+      - nahitaji kuweka bleach
+      - kubleach
+      - kuweka curl shilingi ngap
 
-- intent: kusuka_sulsu
-  examples: |
-    - sulsu
-    - sulsu
-    - nahitaji kusuka sul ?
-    - nahitaji kusuka lsu ?
-    - nahitaji kusuka sulsu  ?
 
-- intent: kusuka_dread
-  examples: |
-    - dread
-    - dead
-    - nahitaji kusuka dredi ?
-    - nahitaji kusuka dread ?
-    - nahitaji kusuka dreadi ?
+  - intent: hairstyle
+    examples: |
+      - bob
+      - mabutu ya rasta
+      - nywele ya mkono
+      - crochet
+      - selfi za jerry
+      - afrokink
+      - vitunguu vya rasta
+      - afroking
+      - yeboyebo
+      - yebo achia
+      - yeboyeboachia
+      - salsa
+      - passion twist
+      - mambotwisti
+      - dread
+      - knotless
+      - notless
+      - nywele za uzi
+      - twist ya nywele zangu
+      - twist
+      - vibutu vya njia mbili
+      - vibutu vya njia tatu vya kuanzia chini
+      - vitunguu vikubwa
+      - vitunguu vidogo
+      - yebo kubwa
+      - yebo ndogo
+      - bob kubwa
+      - bob ndefu
+      - bob fupi
+      - vitunguu njia mbili
+      - vitunguu vya kusokota
+      - tano kichwa
+      - twende kilioni
+      - mkeka
+      - zigzag ya rasta
+      - zig zag y a mkono
+      - crochet ya selfie
+      - vitunguu vya kuanzia chini
+      - vitunguu vya kusokota
 
-- intent: kusuka_african
-  examples: |
-    - afirikana
-    - afirika
-    - nahitaji kusuka african ?
-    - nahitaji kusuka africa ?
-    - nahitaji kusuka afrikan ?
 
-- intent: kusuka_bob
-  examples: |
-    - aina ya bob
-    - bob
-    - nahitaji kusuka bob bob ?
-    - nahitaji kusuka bobu ?
-    - nahitaji kusuka bob ?
+  - intent: bob
+    examples: |
+      - bob
+      - bobo
 
-- intent: kusuka_notless
-  examples: |
-    - notless
-    - not less
-    - nahitaji kusuka noless ?
-    - nahitaji kusuka notless ?
-    - nahitaji kusuka notles ?
 
-- intent: crochet_twist
-  examples: |
-    - Je, mnasuka mambo twist
+  - intent: bob_kubwa
+    examples: |
+      - bob kubwa
+      - bobu kubwa kubwa
 
-- intent: nywele_zipo
-  examples: |
-    - Je, nywele mnazo au nije mnazo
+  - intent: bob_ndogo
+    examples: |
+      - bob ndogo
 
-- intent: rangi_jerry
-  examples: |
-    - Mnapaka rangi ya jerry
-    - Mnapaka rangi ya jelly
+  - intent: mabutu_ya_rasta
+    examples: |
+      - mabutu ya rasta
+      - mabutu mabutu
 
-- intent: rangi_jerry1
-  examples: |
-    - Mnapaka rangi ya kawaida
-    - Mnapaka rangi ya kawaida
+  - intent: nywele_ya_mkono
+    examples: |
+      - nywele ya mkono
+      - za mikono
 
-- intent: rangi_jerry2
-  examples: |
-    - Shilingi ngapi ?
+  - intent: twende_kilioni
+    examples: |
+      - twende kilioni
+      - kilioni ule
+
+  - intent: mbinjuo
+    examples: |
+      - mbinjuo
+      - mbinju
+      - mbi njuo
+
+
+  - intent: crochet
+    examples: |
+      - crochet
+      - crosheti
+      - cro che ti
+
+  - intent: crochet_ya_selfie
+    examples: |
+      - selfie
+      - sel fii
+
+  - intent: selfi_za_jerry
+    examples: |
+      - jerry
+      - jeri
+
+  - intent: vitunguu_vya_kusokota
+    examples: |
+      - kusokota
+      - sokota
+
+  - intent: vitunguu_vya_kuanzia_chini
+    examples: |
+      - kuanzia chini
+      - matunguu ya kuanzia chini chini
+
+  - intent: zigzag_ya_mkono
+    examples: |
+      - zig mkono
+      - zig zag ya mkono
+
+  - intent: zigzag_ya_rasta
+    examples: |
+      - zigzag rasta
+      - ya rasta
+
+  - intent: mkeka
+    examples: |
+      - mkeka
+      - mikeka
+
+  - intent: vitunguu_njia_mbili
+    examples: |
+      - njia mbili
+      - two ways
+
+  - intent: bob_fupi
+    examples: |
+      - bobu fupi
+      - fupi
+
+  - intent: bob_kubwa
+    examples: |
+      - kubwa
+      - kuba kubwa
+
+  - intent: bob_ndogo
+    examples: |
+      - ndogo
+      - ndog ndogo
+      - smali
+
+  - intent: vitunguu_vidogo
+    examples: |
+      - vidogo
+      - vidunchu
+
+  - intent: afroking
+    examples: |
+      - afroking
+      - afro kin
+      - afrokingi
+
+  - intent: vitunguu_vya_rasta
+    examples: |
+      - vitu rasta
+      - vya rasta rasta
+
+  - intent: yeboyebo
+    examples: |
+      - yebo
+      - yeboyebo
+
+  - intent: yebo_achia
+    examples: |
+      - yebo achia
+      - achia
+
+
+  - intent: salsa
+    examples: |
+      - salsa
+      - salisa
+      - sals
+
+  - intent: passion_twist
+    examples: |
+      - passion twist
+      - twisti ya pasheni
+
+  - intent: mambotwist
+    examples: |
+      - mambo twist
+      - mambo twisti
+
+  - intent: dread
+    examples: |
+      - dread
+      - dreadi
+
+  - intent: knotless
+    examples: |
+      - knotless
+      - notless
+
+  - intent: nywele_za_uzi
+    examples: |
+      - za uzi
+      - nywele za uzi
+
+  - intent: twist
+    examples: |
+      - twisti
+      - twist
+
+  - intent: tano_kichwa
+    examples: |
+      - tano kichwa
+      - 5 za kichwa
+
+  - intent: ndyo
+    examples: |
+      - ndyo imesaidia, ahsante
+      - ndyo ahsante
+      - ahsante sana
+      - yes thank you
+      - thamk you
+
+  - intent: hapana
+    examples: |
+      - hapana
+      - hapana haijanisaidia
+
+  - intent: goodbye
+    examples: |
+      - sawa hamna tabu
+      - kwaheri ahsante
+
+  - intent: bot_challenge
+    examples: |
+      - wewe ni mtu ?
+      - wewe ni nani
