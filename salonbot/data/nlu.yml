@@ -151,18 +151,6 @@ nlu:
     examples: |
       - nahitaji kuweka dawa
       - kuweka dawa na steaming
-      - mnaweka dawa?
-      - huduma ya kuweka dawa ipo?
-      - mnaweza kuweka dawa na kunifanyia steaming?
-      - mnaweka dawa  na steaming kwa shiling ngap?
-      - shilingi ngap kuweka dawa
-      - nahitaji kuweka dawa bei yake ni sh ngap?
-      - nataka kuweka dawa
-      - kuweka dawa na kuseti sh ngap?
-      - kuweka dawa na kubodry sh ngap
-      - kuweka dawa ya box sh ngap?
-      - kuweka dawa ya kopo shiling ngap?
-      - gharama ya kuweka dawa ni kias gab?
       - kulitachi shiling ngap
       - nahitaji kuretachi na kuweka steaming
       - nahitaji kuweka dawa na steaming
@@ -192,28 +180,12 @@ nlu:
 
   - intent: kucha
     examples: |
-      - nataka kupaka rangi
-      - nataka kupaka jerry
       - nahitaji kupaka rangi kucha
       - nahitaji manicure
       - nahitaji pedicure
       - mancure
       - pedicure
       - nataka kupaka rangi ya kawaida
-      - nataka kupaka rangi mikononi na miguuni
-      - rangi ya jerry shiling ngap?
-      - ramgi ya kawaida shiling ngap?
-      - manicure shiling ngap?
-      - manicure sh ngap?
-      - pedicure shiling ngap?
-      - pedicure sh ngap?
-      - kupaka rangi kucha bei gani ?
-      - kucha mnahudumia ?
-      - kucha kama za ki zombi zombi
-      - pedi cure
-      - pedcure
-      - nahitaji huduma ya manicure ?
-      - mani cure
       - kusafisha miguu
       - kusafisha mikono
       - manicure mnafanya kwa bei gani, je mnapaka jerry
@@ -295,18 +267,20 @@ nlu:
 
   - intent: bob
     examples: |
+      - bobby
       - bob
       - bobo
 
 
   - intent: bob_kubwa
     examples: |
-      - bob kubwa
-      - bobu kubwa kubwa
+      - kubwa
+      - bobbu kubwa kubwa
 
   - intent: bob_ndogo
     examples: |
-      - bob ndogo
+      - ndogo
+      - za kaisi
 
   - intent: mabutu_ya_rasta
     examples: |

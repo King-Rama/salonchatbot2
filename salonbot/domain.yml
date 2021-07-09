@@ -9,6 +9,12 @@ intents:
   - weaving
   - kubond
   - dawa
+  - bob
+  - bob_ndogo
+  - mabutu_ya_rasta
+  - nywele_ya_mkono
+  - twende_kilioni
+  - mbinjuo
   - makeup
   - kucha
   - kubana_nywele
@@ -16,12 +22,6 @@ intents:
   - kusokota_dread
   - curl_bleach
   - hairstyle
-  - bob
-  - bob_ndogo
-  - mabutu_ya_rasta
-  - nywele_ya_mkono
-  - twende_kilioni
-  - mbinjuo
   - crochet
   - crochet_ya_selfie
   - selfi_za_jerry
