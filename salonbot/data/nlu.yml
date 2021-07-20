@@ -271,7 +271,6 @@ nlu:
       - bob
       - bobo
 
-
   - intent: bob_kubwa
     examples: |
       - kubwa
@@ -380,7 +379,7 @@ nlu:
   - intent: vitunguu_vya_rasta
     examples: |
       - vitu rasta
-      - vya rasta rasta
+      - vya   rasta rasta
 
   - intent: yeboyebo
     examples: |
