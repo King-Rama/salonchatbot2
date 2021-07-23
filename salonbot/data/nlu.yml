@@ -455,3 +455,89 @@ nlu:
     examples: |
       - wewe ni mtu ?
       - wewe ni nani
+      - fala
+      - mama
+      - baba na mama
+      - mpenzi au mapenzi
+
+  - intent: salamu1
+    example: |
+      - mambo best
+      - mambo
+      - mambo vip
+      - HABARI
+      - vipi
+      - niaje
+      - habari za mud huu
+      - habari za jion
+      - habari za mchana
+
+
+
+  - intent: salamu2
+    example: |
+      - hello
+      - hi how are you doing
+      - hey its me naulizia kusuka
+
+  - intent: salamu3
+    example: |
+      - za subuhi
+      - za jion
+      - za mida
+      - za wakati huu
+      - za muda huu
+      - za mchana
+      - umeshindaje
+      - umeamkaje
+
+
+  - intent: salamu4
+    example: |
+      - haujambo
+      - hamjambo
+      -
+
+  - intent: salamu5
+      - shikamoo
+
+  - intent: kunyoa
+    example: |
+      - nahitaji kunyoa
+      - nataka kunyoa
+      - kunyoa
+
+  - intent: misuko
+    example: |
+      - kuna misuko gani
+      - misuko gani inapatiakana katika ssalon zenu
+      - nataka kujua aina za misuko
+      - nahitaji kufahamu misuko mnayosuka
+      - nataka kufahamu misuko yenu
+      - mna misuko gani ya kunivutia
+      - nahitaji kujua mitindo mnayotoa/ mnayosuka
+      - mitindo ya nywele
+
+  - intent: gharama
+    example: |
+      - nahitaji kujua gharama ya kusuka
+      - gramama za kusuka hapa zikoje
+      - mnasukia shilingi ngap
+      - nataka kujua gharama za huduma zenu kwa ujumla
+
+
+  - intent: booking
+    example: |
+      - nawezaa kuweka booking
+      - nataka kuweka booking
+      - je inawezekana kuweka booking
+
+  - intent: ndiyo
+    example: |
+      - ndiyo imesaidia karibu tena
+      - ndiyo
+
+  - intent: hapana
+    example: |
+      - hapana haijasaidia
+      - hapana
