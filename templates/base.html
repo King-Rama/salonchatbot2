@@ -16,7 +16,7 @@
 {##}
 {#	{% block js %}{% endblock %}#}
 </head>
-<body class="" >
+<body style="height: fit-content" >
 {# NAVBAR #}
 <div style="position:absolute; width:100%;">
     {% include 'navbar.html' %}
@@ -27,8 +27,8 @@
 
 	<!-- Image and text -->
 
-<div style="position:absolute; z-index:0;; right: 0;top: 300px" class="w-auto h-50">
-    <div class="chat-container"></div>
+<div style="position:absolute; z-index:0;; right: 0;top: 90px" class="w-auto h-25">
+    <div class="chat-container container h-50" ></div>
 
       <script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js"/></script>
     <script src="{% static 'js/master.js' %}"/></script>
